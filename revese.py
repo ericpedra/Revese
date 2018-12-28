@@ -9,10 +9,10 @@ def xtime():
     return '[{}:{}:{}] '.format(hr, mn, sc)
 
 def logo():
-    print "|create by     : Eric Pedra"
-    print "|contact person: erikpedraz10@gmail.com"
-    print "|date created  : 29 desember 2018"
-    print "|tools for     : Reverse Email, from Pass|Email ->to-> Email|Pass"
+    print "Create by     : Eric Pedra"
+    print "Contact person: erikpedraz10@gmail.com"
+    print "Date created  : 29 desember 2018"
+    print "Tools for     : Reverse Email, from Pass|Email ->to-> Email|Pass"
 
 logo()
 time.sleep(0.5)
