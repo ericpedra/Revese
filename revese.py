@@ -17,14 +17,14 @@ def logo():
 logo()
 time.sleep(0.5)
 print ""
-print "\t\t\t==--+ [Selamat Pak...] +--==\n"
+print "\t\t\t==--+ [Selamat Datang Pak...] +--==\n"
 nm_f = raw_input(xtime()+"[+]File Name root@evolution: ")
-d_lm = raw_input(xtime()+"[+]Delimeter on your list ex: '|' root@evolution: ")
+d_lm = raw_input(xtime()+"[+]Delimeter pada daftar Anda, mis: '|' root@evolution: ")
 op_f = open(nm_f, "r")
 rln = op_f.readlines()
 pjg = len(rln)
 print xtime()+"[+]==--+ ["+str(pjg)+"%] +--=="
-print xtime()+"[+]==--+ [waiting..] +--=="
+print xtime()+"[+]==--+ [Tunggu..] +--=="
 refl = open("result.txt", "w")
 #idx = 0 menghasilkan UnboundLocalError: local variable 'idx' referenced before assignment
 def reverse():
@@ -42,10 +42,10 @@ def reverse():
 reverse()
 print ""
 print ""
-print xtime()+"[+]Done"
-print xtime()+"[+]Result stored to 'resutl.txt' "
+print xtime()+"[+]Selesai"
+print xtime()+"[+]Hasil disimpan keSelesai 'resutl.txt' "
 print "\n\t\t\t==--+ [Finished..!!] +--=="
-print "==--+ [Terima Kasih Telah Menggunakan Alat ./evolution] +--=="
+print "==--+ [Terima Kasih Telah Menggunakan Tools ./evolution] +--=="
 print ""
 print "note: jika Anda memiliki pertanyaan, Anda dapat menghubungi saya"
 print "erikpedraz10@gmail.com"
